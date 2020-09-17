@@ -40,15 +40,16 @@
         "subcategories": [
             "MCC",
             [
-               "Peripherals", "I/O Ports"
+               "Peripherals", "PORT"
             ]
         ],
         "peripherals": [
-            "I/O Ports"
+            "PORT"
         ],
         "keywords": [
-            "MCC",
-            "I/O Ports"
+            "Lighting",
+            "light",
+			"Sensors"
         ],
 		"additionalData": {
 			"longDescription": {
