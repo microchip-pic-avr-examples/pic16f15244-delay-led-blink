@@ -1,24 +1,21 @@
 /**
-  @Generated PIC10 / PIC12 / PIC16 / PIC18 MCUs Source File
+  Generated Pins File
 
-  @Company:
+  Company:
     Microchip Technology Inc.
 
-  @File Name:
-    mcc.c
+  File Name:
+    pins.c
 
-  @Summary:
-    This is the mcc.c file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
+  Summary:
+    This is generated driver implementation for pins. 
 
-  @Description:
-    This header file provides implementations for driver APIs for all modules selected in the GUI.
-    Generation Information :
-        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.0
-        Device            :  PIC16F15244
-        Driver Version    :  2.00
-    The generated drivers are tested against the following:
-        Compiler          :  XC8 2.20
-        MPLAB             :  MPLAB X 5.40
+  Description:
+    This file provides implementations for pin APIs for all pins selected in the GUI.
+
+  Generation Information:
+    Driver Version:  3.0.0
+
 */
 
 /*
@@ -44,25 +41,80 @@
     SOFTWARE.
 */
 
-#include "mcc.h"
+#include "../pins.h"
 
-void SYSTEM_Initialize(void)
+
+void PIN_MANAGER_Initialize(void)
 {
-    PIN_MANAGER_Initialize();
-    OSCILLATOR_Initialize();
-    WDT_Initialize();
-}
+   /**
+    LATx registers
+    */
+    LATA = 0x0;
+    LATB = 0x0;
+    LATC = 0x0;
 
-void OSCILLATOR_Initialize(void)
-{ 
-    OSCEN = 0x00;                                                               // MFOEN disabled; LFOEN disabled; ADOEN disabled; HFOEN disabled; 
-    OSCFRQ = 0x00;                                                              // HFFRQ0 1_MHz 
-    OSCTUNE = 0x00;
-}
+    /**
+    TRISx registers
+    */
+    TRISA = 0x3B;
+    TRISB = 0xF0;
+    TRISC = 0xFF;
 
-void WDT_Initialize(void)
-{ 
-    WDTCON = 0x00;                                                              // WDTPS 1:32; WDTCS LFINTOSC (31 kHz); SWDTEN OFF;
+    /**
+    ANSELx registers
+    */
+    ANSELA = 0x0;
+    ANSELB = 0x0;
+    ANSELC = 0x0;
+
+    /**
+    WPUx registers
+    */
+    WPUA = 0x0;
+    WPUB = 0x0;
+    WPUC = 0x0;
+
+
+    /**
+    ODx registers
+    */
+   
+    ODCONA = 0x4;
+    ODCONB = 0x0;
+    ODCONC = 0x0;
+    /**
+    SLRCONx registers
+    */
+    SLRCONA = 0x33;
+    SLRCONB = 0xF0;
+    SLRCONC = 0xFF;
+    /**
+    INLVLx registers
+    */
+    INLVLA = 0x3B;
+    INLVLB = 0xF0;
+    INLVLC = 0xFF;
+
+    /**
+    PPS registers
+    */
+
+   /**
+    IOCx registers 
+    */
+    IOCAP = 0x0;
+    IOCAN = 0x0;
+    IOCAF = 0x0;
+    IOCBP = 0x0;
+    IOCBN = 0x0;
+    IOCBF = 0x0;
+    IOCCP = 0x0;
+    IOCCN = 0x0;
+    IOCCF = 0x0;
+}
+  
+void PIN_MANAGER_IOC(void)
+{
 }
 
 /**

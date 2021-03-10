@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.pic16f15244-delay-led-blink",
-        "version": "1.0.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic16f15244-delay-led-blink_mcc",
+        "version": "2.0.0",
         "displayName": "Toggle an LED using the 'delay()' Function with PIC16F15244",
         "projectName": "pic16f15244-delay-led-blink",
         "shortDescription": "The 'pic16f15244-delay-led-blink' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how toggle an LED using the XC8 Compiler's `delay()` function.",
         "ide": {
-            "name": "MPLABX",
-            "semverRange": ">=5.40.0"
+            "name": "MPLAB X",
+            "semverRange": ">=5.45.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": "^2.20.0"
+				"semverRange": "^2.31.0"
 			}
 		],
         "dfp": {
-            "name": "PIC16F-DEV_DFP",
-            "semverRange": "^0.1.25"
+            "name": "PIC16Fxxxx_DFP",
+            "semverRange": "^1.5.133"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=3.95.0"
+            "semverRange": ">=4.1.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -49,7 +49,8 @@
         "keywords": [
             "Lighting",
             "light",
-			"Sensors"
+	    "Sensors",
+	    "Melody"
         ],
 		"additionalData": {
 			"longDescription": {

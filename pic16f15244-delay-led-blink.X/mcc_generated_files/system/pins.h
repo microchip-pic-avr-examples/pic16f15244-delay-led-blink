@@ -1,24 +1,21 @@
 /**
-  @Generated Pin Manager Header File
+  Generated Pins header File
 
-  @Company:
+  Company:
     Microchip Technology Inc.
 
-  @File Name:
-    pin_manager.h
+  File Name:
+    pins.h
 
-  @Summary:
-    This is the Pin Manager file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
+  Summary:
+    This is generated driver header for pins. 
 
-  @Description
-    This header file provides APIs for driver for .
-    Generation Information :
-        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.0
-        Device            :  PIC16F15244
-        Driver Version    :  2.11
-    The generated drivers are tested against the following:
-        Compiler          :  XC8 2.20
-        MPLAB 	          :  MPLAB X 5.40	
+  Description:
+    This header file provides APIs for all pins selected in the GUI.
+
+  Generation Information:
+    Driver Version:  3.0.0
+
 */
 
 /*
@@ -44,8 +41,12 @@
     SOFTWARE.
 */
 
-#ifndef PIN_MANAGER_H
-#define PIN_MANAGER_H
+#ifndef PINS_H
+#define PINS_H
+
+/**
+  Section: Included Files
+*/
 
 #include <xc.h>
 
@@ -61,7 +62,7 @@
 #define PULL_UP_ENABLED      1
 #define PULL_UP_DISABLED     0
 
-// get/set LED0 aliases
+// get/set IO_RA2 aliases
 #define LED0_TRIS                 TRISAbits.TRISA2
 #define LED0_LAT                  LATAbits.LATA2
 #define LED0_PORT                 PORTAbits.RA2
@@ -107,7 +108,7 @@ void PIN_MANAGER_IOC(void);
 
 
 
-#endif // PIN_MANAGER_H
+#endif // PINS_H
 /**
  End of File
 */
