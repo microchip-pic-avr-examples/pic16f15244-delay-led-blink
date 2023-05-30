@@ -37,19 +37,14 @@
             }
         },
         "author": "Amey Panse",
-        "subcategories": [
-            "MCC",
-            [
-               "Peripherals", "PORT"
-            ]
-        ],
+
         "peripherals": [
             "PORT"
         ],
         "keywords": [
             "Lighting",
-            "light",
-			"Sensors",
+            "Light",
+			"Sensor",
 			"Melody"
         ],
 		"additionalData": {
