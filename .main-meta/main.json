@@ -39,7 +39,7 @@
         "author": "Amey Panse",
 
         "peripherals": [
-            "PORT"
+            "GPIO"
         ],
         "keywords": [
             "Lighting",
