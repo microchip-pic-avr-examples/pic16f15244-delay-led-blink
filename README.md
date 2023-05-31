@@ -1,9 +1,9 @@
 <!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Toggle an LED using the 'delay()' Function with PIC16F15244
+# Toggle an LED Using the delay() Function with PIC16F15244
 
-The 'pic16f15244-delay-led-blink' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how toggle an LED using the XC8 Compiler's `delay()` function.
+The PIC16F15244 delay led blink code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how to toggle an LED using the XC8 Compiler's `delay()` function.
 
 ##### PIC16F15244 Curiosity Nano Development Board:
 ![Curiosity Nano Development Board](images/NanoHighlights.png)
@@ -12,15 +12,17 @@ The 'pic16f15244-delay-led-blink' code example uses the PIC16F15244 Curiosity Na
 - [PIC16F15244 Product Page](https://www.microchip.com/wwwproducts/en/PIC16F15244)
 
 ## Software Used
-- MPLAB® X IDE 6.10 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-- MPLAB® XC8 2.41 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-- MPLAB® Code Configurator (MCC) 5.3.7 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-- Microchip PIC16F1xxxx Series Device Support (1.18.352) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/)
+
+* MPLAB® X IDE [v6.10.0 or newer](https://www.microchip.com/mplab/mplab-x-ide)
+* XC8 Compiler [v2.41.0 or newer](https://www.microchip.com/mplab/compilers)
+* MPLAB® Code Configurator (MCC) [5.3.7 or newer](microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+* Microchip PIC16F1xxxx Series Device Support [1.18.352 or newer](packs.download.microchip.com/)](https://packs.download.microchip.com/)
 
 
 ## Hardware Used
-- PIC16F15244 Curiosity Nano [(EV09Z19A)](https://www.microchip.com/Developmenttools/ProductDetails/EV09Z19A)
-- Micro-USB to USB 2.0 cable
+
+* PIC16F15244 Curiosity Nano [EV09Z19A](https://www.microchip.com/Developmenttools/ProductDetails/EV09Z19A)
+* Micro-USB to USB 2.0 cable
 
 ## Setup
 1. Connect the PIC16f15244 Curiosity Nano board to a PC using the Micro-USB to USB 2.0 cable.
