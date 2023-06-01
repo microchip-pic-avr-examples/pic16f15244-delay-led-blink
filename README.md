@@ -33,12 +33,12 @@ The PIC16F15244 delay led blink code example uses the PIC16F15244 Curiosity Nano
 ###### Figure 1: Open Project Window
 ![Open Project Window](images/OpenProject.png)
 
-5. Press the 'Project Properites' button to open the Project Properties window. Select the Curiosity tool from the Tools drop-down menu as shown in Figure 2.
+5. Press the **Project Properties** button to open the Project Properties window. Select the Curiosity tool from the Tools drop-down menu as shown in Figure 2.
 
 ###### Figure 2: Select the Nano in Project Properties Window
 ![Select Tool](images/SelectTool.png)
 
-6. Press the 'Make and Program Device' button to program the PIC (see Figure 3). Verify that the device was successfully programmed (see Figure 4).
+6. Press the **Make and Program Device** button to program the PIC (see Figure 3). Verify that the device was successfully programmed (see Figure 4).
 
 ###### Figure 3: 'Make and Program Device' Button
 ![Program Device Button](images/MakeAndProgramButton.png)
@@ -47,7 +47,7 @@ The PIC16F15244 delay led blink code example uses the PIC16F15244 Curiosity Nano
 ![Program Complete](images/ProgramSuccess.png)
 
 ## Operation
-After the Nano board is programmed, LED0 will toggle between its 'ON' and 'OFF' states every one second.
+After the Nano board is programmed, LED0 will toggle between its On and Off states every one second.
 
 The `delay()` function is a quick and easy way to add a software delay to your code. Example 1 shows the `main()` function with a 1000 ms delay between each toggle.
 
